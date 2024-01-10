@@ -34,7 +34,7 @@ for (let i = 0; i < flavorArray.length; i++) {
   } else {
     flavorCount[currentFlavor] = 1
   }
-} 
+}
 
 console.table(flavorCount);
 
