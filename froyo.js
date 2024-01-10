@@ -12,7 +12,7 @@ for (let i = 0; i < froyoFlavors.length; i++) {
 const flavorArray = [];
 let flavor = '';
 
-for (let i = 0; i<flavorNoSpaces.length; i++) {
+for (let i = 0; i < flavorNoSpaces.length; i++) {
   const char = flavorNoSpaces[i];
   if (char === ',') {
     flavorArray.push(flavor);
